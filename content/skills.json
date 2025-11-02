@@ -10,7 +10,7 @@
     "category": "Mobile Development",
     "name": "iOS Live Activities & ActivityKit",
     "level": 0.85,
-    "description": "Integrating Live Activities and Dynamic Island experiences for iOS."
+    "description": "Integrating Live Activities and Dynamic Island experiences for iOS.",
     "icon": "📱"
   },
   {
@@ -59,7 +59,7 @@
     "category": "Backend & Cloud",
     "name": "Java & Spring Boot",
     "level": 0.75,
-    "description": "Building enterprise APIs and microservices with Spring Boot and REST."
+    "description": "Building enterprise APIs and microservices with Spring Boot and REST.",
      "icon": "☁️"
   },
   {
