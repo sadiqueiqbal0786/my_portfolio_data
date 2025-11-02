@@ -3,29 +3,48 @@
     "title": "Manage My Day – AI Productivity App",
     "duration": "Jun 2024 – Present",
     "tech": ["Flutter", "FastAPI", "Firebase", "Google Agent Development Kit"],
+    "thumbnail": "assets/project_thumbnails/mtd-logo.png",
     "details": [
-      "AI-powered productivity app with daily task, project, and goal management.",
-      "Custom calendar with drag/drop, recurring events, and calendar sync (Google, iOS, Microsoft).",
-      "Live timers integrated with Dynamic Island & lockscreen widgets.",
-      "AI assistant built using FastAPI + Google Agent Development Kit."
+      "Building a full-scale productivity app from scratch — managing tasks, projects, goals, and daily activities across multiple life pillars like work, fitness, cooking, and family.",
+      "Designed and implemented a **custom smart calendar** built on top of SF Calendar with drag & drop, event resizing, recurrence, and cross-calendar sync (Google, iOS, Microsoft).",
+      "Integrated **live timers** with **Dynamic Island and Android lock screen** — providing real-time activity tracking.",
+      "Developed an **AI-powered assistant** using FastAPI + Google Agent Development Kit to help users manage their goals via chat.",
+      "Integrated Firebase Auth, Firestore, Storage, Analytics, and Google OAuth 2.0 for secure, data-driven functionality."
     ]
   },
   {
-    "title": "Crooze & AgreEasy Mobile Apps",
+    "title": "Crooze – Fitness Challenge App",
     "duration": "Dec 2023 – Oct 2024",
-    "tech": ["Flutter", "GraphQL", "Riverpod", "Firebase"],
+    "tech": ["Flutter", "GraphQL", "BLoC", "Firebase"],
+    "thumbnail": "assets/project_thumbnails/croozeapp_logo.jpeg",
     "details": [
-      "Crooze: Fitness challenge app with community challenges, leaderboards, and certificates.",
-      "AgreEasy: B2B agriculture platform for farmers and restaurants with localization and bidding."
+      "Developed a community-driven **fitness challenge app** where users participate in walking, cycling, and club challenges to win rewards and certificates.",
+      "Enhanced stability by fixing crash loops, null-handling, and data sync issues.",
+      "Implemented new modules like **Community Challenges**, **Leaderboard System**, and **Challenge Summary Views**.",
+      "Optimized API calls using GraphQL for efficient, high-performance data retrieval."
+    ]
+  },
+  {
+    "title": "AgreEasy – B2B Agriculture Platform",
+    "duration": "Dec 2023 – Oct 2024",
+    "tech": ["Flutter", "Riverpod", "Firebase"],
+    "thumbnail": "assets/project_thumbnails/agreeasy.jpeg",
+    "details": [
+      "Contributed to AgreEasy, a **B2B app connecting farmers with hotels and restaurants** for direct crop and produce trading.",
+      "Built and optimized modules like **Farmer Authentication**, **Profile Management**, and **Land Registration**.",
+      "Added **localization** for multilingual support, making the app more inclusive for regional farmers.",
+      "Resolved notification bugs, optimized the issue reporting system, and eliminated memory leaks for smoother state handling."
     ]
   },
   {
     "title": "SimbaCourse Mobile App",
-    "duration": "2023",
+    "duration": "May 2023 – Nov 2023",
     "tech": ["Flutter", "Express.js", "MongoDB"],
+    "thumbnail": "assets/project_thumbnails/simbacourse.png",
     "details": [
-      "Education management app for admins, teachers, and students.",
-      "Built during internship at SimbaQuartz."
+      "Developed a complete **education management system** for SimbaQuartz, connecting admins, teachers, and students.",
+      "Handled both **frontend and backend** development from scratch using Flutter (for mobile) and Express.js (for backend).",
+      "Enabled course creation, progress tracking, and communication across users."
     ]
   }
 ]

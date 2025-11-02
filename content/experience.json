@@ -1,0 +1,40 @@
+[
+  {
+    "role": "Software Development Engineer",
+    "company": "Connecting Points Tech",
+    "duration": "Jun 2024 – Present",
+    "logo": "assets/companies_logo/connecting_points_tech.jpeg",
+    "details": [
+      "Leading the full-cycle development of **Manage My Day**, an AI-powered productivity and lifestyle management app, built entirely from scratch using Flutter, FastAPI, and Firebase.",
+      "Solved complex architectural challenges such as **background activity handling**, **cross-platform calendar synchronization**, and **real-time UI updates** across Android and iOS.",
+      "Integrated **iOS Live Activities and Android lockscreen widgets** for seamless task tracking — enhancing user engagement and platform parity.",
+      "Developed custom **in-app AI assistant** using FastAPI and Google Agent Development Kit to automate user actions like creating tasks, goals, and project management.",
+      "Collaborating closely with backend engineers and designers to ensure scalability, smooth animations, and zero-latency data flow between frontend and APIs."
+    ]
+  },
+  {
+    "role": "Software Development Engineer",
+    "company": "The Internet Folks (SaaS)",
+    "duration": "Dec 2023 – Oct 2024",
+    "logo": "assets/companies_logo/the_internet_folks.png",
+    "details": [
+      "Delivered high-performance Flutter applications for SaaS clients — focusing on **stability, scalability, and rich user experiences**.",
+      "Developed **Crooze**, a social fitness app enabling community challenges, leaderboards, and activity analytics; optimized performance by debugging null reference crashes and state inconsistencies.",
+      "Worked on **AgreEasy**, a multilingual B2B agriculture app connecting restaurants with farmers; improved **localization**, **network reliability**, and **push notification flow**.",
+      "Debugged **Binder Transaction Failures** by throttling isolate updates and optimizing background data processing.",
+      "Utilized **GraphQL** for efficient data fetching and improved caching strategy, reducing API latency and payloads significantly."
+    ]
+  },
+  {
+    "role": "Software Development Engineer Intern",
+    "company": "SimbaQuartz Pvt. Ltd.",
+    "duration": "May 2023 – Nov 2023",
+    "logo": "assets/companies_logo/simbaquartz.jpeg",
+    "details": [
+      "Contributed to **SimbaCourse**, an internal e-learning platform built with Flutter and Express.js — handled both frontend and backend implementation from scratch.",
+      "Resolved real-world integration challenges between MongoDB, REST APIs, and Flutter UI for smooth course and user management.",
+      "Collaborated on full-stack projects involving Java and React, focusing on building reliable and maintainable software for enterprise clients.",
+      "Gained exposure to professional workflows — code reviews, CI/CD pipelines, and agile development practices."
+    ]
+  }
+]
