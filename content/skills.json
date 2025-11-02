@@ -1,0 +1,12 @@
+[
+  {"name": "Flutter & Dart", "level": 0.95},
+  {"name": "iOS Live Activities & ActivityKit", "level": 0.85},
+  {"name": "Android Native (Kotlin)", "level": 0.75},
+  {"name": "Firebase (Auth, Firestore, FCM, Functions)", "level": 0.9},
+  {"name": "FastAPI (Python Backend)", "level": 0.8},
+  {"name": "Google Genkit & AI Assistants", "level": 0.75},
+  {"name": "Google Agent Development Kit", "level": 0.7},
+  {"name": "Deep Learning & TensorFlow", "level": 0.7},
+  {"name": "Java & Spring Boot", "level": 0.75},
+  {"name": "App Architecture (MVVM, Clean Architecture)", "level": 0.9}
+]

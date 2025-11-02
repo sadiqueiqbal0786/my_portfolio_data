@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Manage My Day – AI Productivity App",
+    "duration": "Jun 2024 – Present",
+    "tech": ["Flutter", "FastAPI", "Firebase", "Google Agent Development Kit"],
+    "details": [
+      "AI-powered productivity app with daily task, project, and goal management.",
+      "Custom calendar with drag/drop, recurring events, and calendar sync (Google, iOS, Microsoft).",
+      "Live timers integrated with Dynamic Island & lockscreen widgets.",
+      "AI assistant built using FastAPI + Google Agent Development Kit."
+    ]
+  },
+  {
+    "title": "Crooze & AgreEasy Mobile Apps",
+    "duration": "Dec 2023 – Oct 2024",
+    "tech": ["Flutter", "GraphQL", "Riverpod", "Firebase"],
+    "details": [
+      "Crooze: Fitness challenge app with community challenges, leaderboards, and certificates.",
+      "AgreEasy: B2B agriculture platform for farmers and restaurants with localization and bidding."
+    ]
+  },
+  {
+    "title": "SimbaCourse Mobile App",
+    "duration": "2023",
+    "tech": ["Flutter", "Express.js", "MongoDB"],
+    "details": [
+      "Education management app for admins, teachers, and students.",
+      "Built during internship at SimbaQuartz."
+    ]
+  }
+]
