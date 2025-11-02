@@ -3,7 +3,7 @@
     "title": "Manage My Day – AI Productivity App",
     "duration": "Jun 2024 – Present",
     "tech": ["Flutter", "FastAPI", "Firebase", "Google Agent Development Kit"],
-    "thumbnail": "assets/project_thumbnails/mtd-logo.png",
+    "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/mtd-logo.png",
     "details": [
       "Building a full-scale productivity app from scratch — managing tasks, projects, goals, and daily activities across multiple life pillars like work, fitness, cooking, and family.",
       "Designed and implemented a **custom smart calendar** built on top of SF Calendar with drag & drop, event resizing, recurrence, and cross-calendar sync (Google, iOS, Microsoft).",
@@ -16,7 +16,7 @@
     "title": "Crooze – Fitness Challenge App",
     "duration": "Dec 2023 – Oct 2024",
     "tech": ["Flutter", "GraphQL", "BLoC", "Firebase"],
-    "thumbnail": "assets/project_thumbnails/croozeapp_logo.jpeg",
+    "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/croozeapp_logo.jpeg",
     "details": [
       "Developed a community-driven **fitness challenge app** where users participate in walking, cycling, and club challenges to win rewards and certificates.",
       "Enhanced stability by fixing crash loops, null-handling, and data sync issues.",
@@ -28,7 +28,7 @@
     "title": "AgreEasy – B2B Agriculture Platform",
     "duration": "Dec 2023 – Oct 2024",
     "tech": ["Flutter", "Riverpod", "Firebase"],
-    "thumbnail": "assets/project_thumbnails/agreeasy.jpeg",
+    "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/agreeasy.jpeg",
     "details": [
       "Contributed to AgreEasy, a **B2B app connecting farmers with hotels and restaurants** for direct crop and produce trading.",
       "Built and optimized modules like **Farmer Authentication**, **Profile Management**, and **Land Registration**.",
@@ -40,7 +40,7 @@
     "title": "SimbaCourse Mobile App",
     "duration": "May 2023 – Nov 2023",
     "tech": ["Flutter", "Express.js", "MongoDB"],
-    "thumbnail": "assets/project_thumbnails/simbacourse.png",
+    "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/simbacourse.png",
     "details": [
       "Developed a complete **education management system** for SimbaQuartz, connecting admins, teachers, and students.",
       "Handled both **frontend and backend** development from scratch using Flutter (for mobile) and Express.js (for backend).",
