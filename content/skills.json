@@ -1,12 +1,72 @@
 [
-  {"name": "Flutter & Dart", "level": 0.95},
-  {"name": "iOS Live Activities & ActivityKit", "level": 0.85},
-  {"name": "Android Native (Kotlin)", "level": 0.75},
-  {"name": "Firebase (Auth, Firestore, FCM, Functions)", "level": 0.9},
-  {"name": "FastAPI (Python Backend)", "level": 0.8},
-  {"name": "Google Genkit & AI Assistants", "level": 0.75},
-  {"name": "Google Agent Development Kit", "level": 0.7},
-  {"name": "Deep Learning & TensorFlow", "level": 0.7},
-  {"name": "Java & Spring Boot", "level": 0.75},
-  {"name": "App Architecture (MVVM, Clean Architecture)", "level": 0.9}
+  {
+    "category": "Mobile Development",
+    "name": "Flutter & Dart",
+    "level": 0.95,
+    "description": "Building high-performance cross-platform apps with clean UI and animations.",
+    "icon": "📱"
+  },
+  {
+    "category": "Mobile Development",
+    "name": "iOS Live Activities & ActivityKit",
+    "level": 0.85,
+    "description": "Integrating Live Activities and Dynamic Island experiences for iOS.",
+    "icon": "📱"
+  },
+  {
+    "category": "Mobile Development",
+    "name": "Android Native (Kotlin)",
+    "level": 0.75,
+    "description": "Developing modern Android apps with Jetpack Compose and Kotlin coroutines.",
+    "icon": "📱"
+  },
+  {
+    "category": "Backend & Cloud",
+    "name": "Firebase (Auth, Firestore, FCM, Functions)",
+    "level": 0.9,
+    "description": "End-to-end backend for mobile apps with realtime updates and cloud functions.",
+    "icon": "☁️"
+  },
+  {
+    "category": "Backend & Cloud",
+    "name": "FastAPI (Python Backend)",
+    "level": 0.8,
+    "description": "Creating high-speed RESTful APIs using Python and FastAPI.",
+    "icon": "☁️"
+  },
+  {
+    "category": "AI & ML",
+    "name": "Google Genkit & AI Assistants",
+    "level": 0.75,
+    "description": "Building custom AI assistants and generative experiences.",
+    "icon": "🤖"
+  },
+  {
+    "category": "AI & ML",
+    "name": "Google Agent Development Kit",
+    "level": 0.7,
+    "description": "Creating intelligent agents with Google’s ADK for conversational AI.",
+    "icon": "🤖"
+  },
+  {
+    "category": "AI & ML",
+    "name": "Deep Learning & TensorFlow",
+    "level": 0.7,
+    "description": "Training and deploying ML models for mobile and backend inference.",
+    "icon": "🤖"
+  },
+  {
+    "category": "Backend & Cloud",
+    "name": "Java & Spring Boot",
+    "level": 0.75,
+    "description": "Building enterprise APIs and microservices with Spring Boot and REST.",
+    "icon": "☁️"
+  },
+  {
+    "category": "Architecture & Design",
+    "name": "App Architecture (MVVM, Clean Architecture)",
+    "level": 0.9,
+    "description": "Designing scalable app structures with maintainable patterns.",
+    "icon": "🏗️"
+  }
 ]
