@@ -5,7 +5,7 @@
     "institution": "Lovely Professional University, Phagwara, Punjab, India",
     "duration": "2020 – 2023",
     "cgpa": "7.47",
-    "logo": "assets/institute_logos/lpu.png",
+    "logo": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/institute_logos/lpu.png",
     "details": [
       "Graduated with a strong foundation in computer science principles, data structures, and software development.",
       "Worked on several practical projects involving Flutter, FastAPI, and Firebase.",
@@ -18,7 +18,7 @@
     "institution": "Lovely Professional University, Phagwara, Punjab, India",
     "duration": "2018 – 2020",
     "cgpa": "8.56",
-    "logo": "assets/institute_logos/lpu.png",
+    "logo": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/institute_logos/lpu.png",
     "details": [
       "Gained early exposure to programming, algorithms, and system design.",
       "Built a solid base in core computer fundamentals and Java programming.",
