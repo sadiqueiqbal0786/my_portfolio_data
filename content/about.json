@@ -1,0 +1,11 @@
+{
+  "title": "About Me",
+  "subtitle": "Software Development Engineer | Flutter & Backend Developer | AI Enthusiast",
+  "description": "I'm Sadique Iqbal, a passionate Software Development Engineer who loves turning complex ideas into smooth, scalable mobile experiences. I specialize in building full-stack apps using Flutter, Firebase, and FastAPI — from concept to production. I enjoy crafting AI-integrated, user-focused products that make everyday life simpler and smarter. When I’m not coding, I explore new technologies and refine ways to make apps feel more human.",
+  "highlights": [
+    "Building production-grade apps with Flutter and Firebase",
+    "Integrating AI assistants using Google Agent Development Kit & FastAPI",
+    "Experienced in cross-platform architecture and API design",
+    "Open to remote and freelance opportunities"
+  ]
+}
