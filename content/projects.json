@@ -28,7 +28,7 @@
     "title": "AgreEasy – B2B Agriculture Platform",
     "duration": "Dec 2023 – Oct 2024",
     "tech": ["Flutter", "Riverpod", "Firebase"],
-    "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/agreeasy.jpeg",
+    "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/agreEasy.jpeg",
     "details": [
       "Contributed to AgreEasy, a **B2B app connecting farmers with hotels and restaurants** for direct crop and produce trading.",
       "Built and optimized modules like **Farmer Authentication**, **Profile Management**, and **Land Registration**.",
