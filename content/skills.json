@@ -25,48 +25,48 @@
     "name": "Firebase (Auth, Firestore, FCM, Functions)",
     "level": 0.9,
     "description": "End-to-end backend for mobile apps with realtime updates and cloud functions.",
-     "icon": "☁️"
+    "icon": "☁️"
   },
   {
     "category": "Backend & Cloud",
     "name": "FastAPI (Python Backend)",
     "level": 0.8,
     "description": "Creating high-speed RESTful APIs using Python and FastAPI.",
-     "icon": "☁️"
+    "icon": "☁️"
   },
   {
     "category": "AI & ML",
     "name": "Google Genkit & AI Assistants",
     "level": 0.75,
     "description": "Building custom AI assistants and generative experiences.",
-      "icon": "🤖"
+    "icon": "🤖"
   },
   {
     "category": "AI & ML",
     "name": "Google Agent Development Kit",
     "level": 0.7,
     "description": "Creating intelligent agents with Google’s ADK for conversational AI.",
-     "icon": "🤖"
+    "icon": "🤖"
   },
   {
     "category": "AI & ML",
     "name": "Deep Learning & TensorFlow",
     "level": 0.7,
     "description": "Training and deploying ML models for mobile and backend inference.",
-     "icon": "🤖"
+    "icon": "🤖"
   },
   {
     "category": "Backend & Cloud",
     "name": "Java & Spring Boot",
     "level": 0.75,
     "description": "Building enterprise APIs and microservices with Spring Boot and REST.",
-     "icon": "☁️"
+    "icon": "☁️"
   },
   {
     "category": "Architecture & Design",
     "name": "App Architecture (MVVM, Clean Architecture)",
     "level": 0.9,
     "description": "Designing scalable app structures with maintainable patterns.",
-      "icon": "🏗️"
+    "icon": "🏗️"
   }
 ]
