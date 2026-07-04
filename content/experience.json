@@ -3,7 +3,7 @@
     "role": "Software Development Engineer",
     "company": "Connecting Points Tech",
     "duration": "Jun 2024 – Present",
-    "logo": "assets/companies_logo/connecting_points_tech.jpeg",
+    "logo": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/companies_logo/connecting_points_tech.jpeg",
     "details": [
       "Leading the full-cycle development of **Manage My Day**, an AI-powered productivity and lifestyle management app, built entirely from scratch using Flutter, FastAPI, and Firebase.",
       "Solved complex architectural challenges such as **background activity handling**, **cross-platform calendar synchronization**, and **real-time UI updates** across Android and iOS.",
@@ -16,7 +16,7 @@
     "role": "Software Development Engineer",
     "company": "The Internet Folks (SaaS)",
     "duration": "Dec 2023 – Oct 2024",
-    "logo": "assets/companies_logo/the_internet_folks.png",
+    "logo": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/companies_logo/the_internet_folks.png",
     "details": [
       "Delivered high-performance Flutter applications for SaaS clients — focusing on **stability, scalability, and rich user experiences**.",
       "Developed **Crooze**, a social fitness app enabling community challenges, leaderboards, and activity analytics; optimized performance by debugging null reference crashes and state inconsistencies.",
@@ -29,7 +29,7 @@
     "role": "Software Development Engineer Intern",
     "company": "SimbaQuartz Pvt. Ltd.",
     "duration": "May 2023 – Nov 2023",
-    "logo": "assets/companies_logo/simbaquartz.jpeg",
+    "logo": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/companies_logo/simbaquartz.jpeg",
     "details": [
       "Contributed to **SimbaCourse**, an internal e-learning platform built with Flutter and Express.js — handled both frontend and backend implementation from scratch.",
       "Resolved real-world integration challenges between MongoDB, REST APIs, and Flutter UI for smooth course and user management.",
