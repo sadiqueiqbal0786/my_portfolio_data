@@ -8,17 +8,12 @@
     "role": "Lead Flutter Engineer",
     "summary": "A cross-platform AI productivity platform — a unified multi-provider calendar, a voice + text AI planning assistant, and live iOS Dynamic Island timers.",
     "link": "",
-    "demoUrl": "/mtd-demo/index.html",
+    "demoUrl": "",
     "tech": ["Flutter", "Dart 3", "BLoC / Provider / Riverpod", "FastAPI", "Firebase", "Google ADK", "Genkit", "Syncfusion"],
     "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/mtd-logo.png",
     "screenshots": [
       "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/mtd_shots/dashboard.png",
-      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/mtd_shots/task-cloud.png",
-      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/mtd_shots/calendar.png",
-      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/mtd_shots/ai-assistant.png",
-      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/mtd_shots/goals.png",
-      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/mtd_shots/pillars.png",
-      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/mtd_shots/reporting.png"
+      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/mtd_shots/task-cloud.png"
     ],
     "overview": "MTD is a production-grade productivity platform I lead as the Flutter engineer at Connecting Points Tech. It runs on iOS, Android, and Web from a single Flutter codebase and brings a person's entire day — tasks, projects, goals, and time — into one place, with an AI assistant that plans and schedules on their behalf.",
     "details": [
