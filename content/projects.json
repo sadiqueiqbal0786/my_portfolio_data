@@ -13,7 +13,7 @@
     "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/mtd-logo.png",
     "screenshots": [
       "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/mtd_shots/dashboard.png",
-      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/mtd_shots/task-cloud.png"
+      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/mtd_shots/dashboard-mobile.png"
     ],
     "overview": "MTD is a production-grade productivity platform I lead as the Flutter engineer at Connecting Points Tech. It runs on iOS, Android, and Web from a single Flutter codebase and brings a person's entire day — tasks, projects, goals, and time — into one place, with an AI assistant that plans and schedules on their behalf.",
     "details": [
