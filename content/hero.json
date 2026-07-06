@@ -1,8 +1,8 @@
 {
   "name": "Sadique Iqbal",
-  "title": "Software Development Engineer",
-  "subtitle": "Flutter | FastAPI | AI | ML Enthusiast",
-  "description": "Building scalable mobile and web solutions with Flutter, FastAPI, and AI integrations. Passionate about delivering intelligent, cross-platform experiences.",
+  "title": "Software Engineer · Applied AI & Full-Stack",
+  "subtitle": "Multi-Agent AI · Machine Learning · Flutter · FastAPI · Spring Boot · GCP",
+  "description": "I build complete products end to end — cross-platform apps, backends, and AI systems. I ship multi-agent AI with Google ADK, Genkit, and LangGraph, train and tune ML models in Python and R, and work across the stack in whatever language the problem needs. Flutter is home base; the rest is range.",
   "profileImage": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/profile.jpg",
   "resumeUrl": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/Sadique_CV.pdf"
 }

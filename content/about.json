@@ -1,11 +1,13 @@
 {
   "title": "About Me",
-  "subtitle": "Software Development Engineer | Flutter & Backend Developer | AI Enthusiast",
-  "description": "I'm Sadique Iqbal, a passionate Software Development Engineer who loves turning complex ideas into smooth, scalable mobile experiences. I specialize in building full-stack apps using Flutter, Firebase, and FastAPI — from concept to production. I enjoy crafting AI-integrated, user-focused products that make everyday life simpler and smarter. When I’m not coding, I explore new technologies and refine ways to make apps feel more human.",
+  "subtitle": "Applied AI & Full-Stack Software Engineer",
+  "description": "I'm Sadique Iqbal — a software engineer who ships complete products, from the app in your hand to the AI and data systems behind it. I lead Flutter development professionally, but I'm equally at home building backends in FastAPI, Spring Boot, or Express, and I pick up new languages fast when a problem calls for it. On the AI side, I design and build multi-agent systems end to end with Google ADK, Genkit, and LangGraph, integrate LLMs and Hugging Face transformers, and take machine-learning work all the way through — cleaning and preparing data, drawing insights, and training and tuning models in Python and R with scikit-learn and TensorFlow, including deep-learning architectures like CNNs, GANs, and autoencoders. I use AI as a working partner to move fast without cutting corners.",
   "highlights": [
-    "Building production-grade apps with Flutter and Firebase",
-    "Integrating AI assistants using Google Agent Development Kit & FastAPI",
-    "Experienced in cross-platform architecture and API design",
-    "Open to remote and freelance opportunities"
+    "Full-stack: Flutter, plus FastAPI, Spring Boot & Express backends",
+    "Applied AI: end-to-end multi-agent systems with Google ADK, Genkit & LangGraph",
+    "ML & data science: data prep, training & tuning in Python and R (scikit-learn, TensorFlow)",
+    "Deep learning: CNNs, GANs, and autoencoders",
+    "Cloud: Firebase (full suite) and Google Cloud Platform",
+    "Polyglot — comfortable learning and coding in any language"
   ]
 }
