@@ -1,10 +1,14 @@
 [
   {
-    "title": "Unstop Code & Flipkart Hire Challenge",
-    "details": "Earned certificates for outstanding participation."
+    "title": "Competitive Coding — Unstop & Flipkart",
+    "details": "Recognised for strong performance in national coding and hiring challenges, including the Unstop Code Challenge and the Flipkart Hire Challenge."
   },
   {
-    "title": "SimbaQuartz IT & Independence Day Quiz",
-    "details": "Won a T-shirt and a Cup for top performance."
+    "title": "Top Performer — SimbaQuartz Quizzes",
+    "details": "Placed first in the company IT quiz and Independence-Day quiz during the SimbaQuartz internship."
+  },
+  {
+    "title": "Shipped a production AI product solo",
+    "details": "Took Manage The Day from architecture to a live cross-platform product — mobile, web, backend, cloud, and applied AI."
   }
 ]
