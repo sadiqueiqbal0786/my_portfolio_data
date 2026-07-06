@@ -1,13 +1,15 @@
 [
   {
+    "id": "manage-the-day",
     "title": "Manage The Day (MTD) – AI Productivity Platform",
     "company": "Connecting Points Tech",
     "duration": "Jun 2024 – Present",
     "category": "AI",
+    "role": "Lead Flutter Engineer",
     "summary": "A cross-platform AI productivity platform — a unified multi-provider calendar, a voice + text AI planning assistant, and live iOS Dynamic Island timers.",
     "link": "",
     "demoUrl": "/mtd-demo/index.html",
-    "tech": ["Flutter", "BLoC / Riverpod", "FastAPI", "Firebase", "Google ADK", "Syncfusion"],
+    "tech": ["Flutter", "Dart 3", "BLoC / Provider / Riverpod", "FastAPI", "Firebase", "Google ADK", "Genkit", "Syncfusion"],
     "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/mtd-logo.png",
     "screenshots": [
       "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/mtd_shots/dashboard.png",
@@ -18,68 +20,78 @@
       "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/mtd_shots/pillars.png",
       "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/mtd_shots/reporting.png"
     ],
+    "overview": "MTD is a production-grade productivity platform I lead as the Flutter engineer at Connecting Points Tech. It runs on iOS, Android, and Web from a single Flutter codebase and brings a person's entire day — tasks, projects, goals, and time — into one place, with an AI assistant that plans and schedules on their behalf.",
     "details": [
-      "**Problem** — Productivity tools scatter the day across silos: tasks in one app; Google, Apple, Outlook and the phone's own calendar in others; goals nowhere at all. Planning means manually reconciling all of them.",
-      "**Solution** — A production-grade Flutter platform (iOS, Android, and Web from one codebase) that merges every calendar into a single schedule, organises work by life pillars, and adds a voice + text AI assistant that plans and auto-schedules.",
-      "**Unified multi-provider calendar** — one Syncfusion-based surface merging MTD, Google, Apple (CalDAV/iCloud), Microsoft 365, and on-device iOS (EventKit) events, with drag & drop, resizing, recurrence, and colour-coded cross-calendar sync.",
-      "**Voice + text AI assistant** — FastAPI + Google Agent Development Kit; manages tasks, events, goals, and pillars, and auto-schedules work onto the calendar from natural language.",
-      "**iOS Live Activities** — Dynamic Island and lock-screen timers for active focus sessions.",
-      "**Productivity system** — Task Cloud (kanban), Pillars, Goals, Projects, Focus Time, and day-tracking heatmaps.",
-      "**Architecture** — Flutter · Dart 3; global state via BLoC + Provider + Riverpod; Firebase Auth, Firestore, Storage & Analytics; FastAPI backend over REST (Dio).",
-      "**My role** — Lead Flutter engineer, from architecture through shipped product across mobile, web, backend, and applied AI."
+      "**The problem** — People juggle their day across disconnected tools: tasks in one app; Google, Apple, Outlook and the phone's own calendar in others; goals and time-tracking nowhere at all. Planning means manually reconciling all of it, every day.",
+      "**Unified multi-provider calendar** — The hardest and most distinctive piece. I built a single calendar surface (on Syncfusion) that merges MTD's own events with **Google Calendar, Apple/iCloud via CalDAV, Microsoft 365 via Graph, and on-device iOS via EventKit** — each with different auth and sync semantics — into one colour-coded view supporting drag-and-drop, resizing, recurrence, and timezone-correct scheduling.",
+      "**Live iOS activities** — Integrated **ActivityKit / Live Activities** so an active focus timer shows live on the Dynamic Island and lock screen, mirrored with a native Android background service — keeping the current task visible without opening the app.",
+      "**Voice + text AI assistant** — An in-app assistant (FastAPI + **Google Agent Development Kit**, Genkit, and Firebase Functions) that takes natural language — by text or voice — and manages tasks, events, goals, and pillars, and **auto-schedules** work onto the calendar via tool-calling.",
+      "**Full productivity system** — Task Cloud (kanban with subtasks and drag-to-schedule), Pillars and Goals for life-area planning, Projects, Focus Time / Time Boxing, Time Entries, and a Reporting view with per-pillar analytics (tracked vs target, efficiency, active days).",
+      "**Architecture** — A single Flutter (Dart 3) codebase with layered state management: **BLoC** for long-lived global state, **Provider** for UI-reactive state (timers, network status), and **Riverpod** for MCP tokens and audit logs. Firebase handles Auth, Firestore (real-time sync), Storage, and Analytics; a **FastAPI** backend is reached over REST via Dio.",
+      "**My role & impact** — I own the Flutter architecture and the platform-specific hard problems — cross-provider calendar sync, Live Activities, real-time data flow, and the assistant's client integration — taking features from design to a shipped, production cross-platform product."
     ]
   },
   {
+    "id": "crooze",
     "title": "Crooze – Fitness Challenge App",
     "company": "The Internet Folks",
     "duration": "Dec 2023 – Oct 2024",
     "category": "Mobile",
+    "role": "Flutter Engineer",
     "summary": "A community fitness-challenge app — cycling and walking contests, leaderboards, and automated certificate generation.",
     "link": "",
+    "demoUrl": "",
     "tech": ["Flutter", "GraphQL", "BLoC / Riverpod", "Firebase"],
     "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/croozeapp_logo.jpeg",
     "screenshots": [],
+    "overview": "Crooze is a community-driven fitness app where users join admin-hosted cycling and walking challenges to earn rewards and certificates. I worked on it as a Flutter engineer at The Internet Folks, delivering features and hardening a live product.",
     "details": [
-      "**Product** — A community-driven fitness app where users join cycling, walking, and club challenges hosted by admins to earn rewards and certificates.",
-      "**Features I built** — Community, Club, and Individual challenge modules, a Leaderboard system, challenge-summary views, and automated certificate generation.",
-      "**Performance** — Integrated a GraphQL API for efficient, high-performance data retrieval, reducing over-fetching across challenge and profile screens.",
-      "**Stability** — Fixed crash loops, null-handling, and data-sync issues, and tuned overall app performance.",
-      "**My role** — Feature development and stabilisation as a Flutter engineer at The Internet Folks."
+      "**Features I shipped** — Community, Club, and Individual challenge modules, a Leaderboard system, challenge-summary views, and automated certificate generation for challenge winners.",
+      "**Performance via GraphQL** — Integrated GraphQL APIs and tuned queries to cut over-fetching across challenge and profile screens, reducing payloads and latency.",
+      "**Stability engineering** — Diagnosed and fixed crash loops, null-reference crashes, and state inconsistencies; a notable fix was resolving **Android Binder transaction failures** by throttling isolate updates and optimising background data processing.",
+      "**My role** — Feature development and reliability work on a shipped consumer app, with BLoC/Riverpod state management on Firebase."
     ]
   },
   {
+    "id": "agreeasy",
     "title": "AgreEasy – B2B Agriculture Platform",
     "company": "The Internet Folks",
     "duration": "Dec 2023 – Oct 2024",
     "category": "Mobile",
+    "role": "Flutter Engineer",
     "summary": "A multilingual B2B platform connecting farmers directly with hotels and restaurants for crop and produce trading.",
     "link": "",
+    "demoUrl": "",
     "tech": ["Flutter", "GraphQL", "Riverpod", "Firebase"],
     "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/agri-easy.jpeg",
     "screenshots": [],
+    "overview": "AgreEasy is a B2B platform that connects farmers directly with hotels and restaurants for crop and produce trading. I built core onboarding and reliability features as a Flutter engineer at The Internet Folks.",
     "details": [
-      "**Product** — A B2B platform connecting farmers directly with hotels and restaurants for crop and produce trading.",
-      "**Modules I built** — Farmer Authentication, Profile Management, and Land Registration, end to end.",
-      "**Localization** — Added multilingual support to make the app inclusive for regional farmers.",
-      "**Reliability** — Optimised the issue-reporting/ticketing system, fixed notification bugs, and eliminated memory leaks for smoother state handling.",
-      "**My role** — Feature development as a Flutter engineer at The Internet Folks."
+      "**Modules I built** — Farmer Authentication, Profile Management, and Land Registration, implemented end to end.",
+      "**Localization** — Added multilingual support so the app works for regional farmers in their own language.",
+      "**Reliability** — Optimised the issue-reporting / ticketing system, fixed notification-delivery bugs, and eliminated memory leaks for smoother state handling.",
+      "**My role** — Feature development and stabilisation with Riverpod state management on a GraphQL + Firebase stack."
     ]
   },
   {
+    "id": "simbacourse",
     "title": "SimbaCourse – Education Management App",
     "company": "SimbaQuartz",
     "duration": "May 2023 – Nov 2023",
     "category": "Full-Stack",
+    "role": "Full-Stack Engineer (Intern)",
     "summary": "A full-stack education-management platform for admins, teachers, and students — built from the data model to a shipped mobile app.",
     "link": "https://simbacourse.com/",
-    "tech": ["Flutter", "Express.js", "MongoDB"],
+    "demoUrl": "",
+    "tech": ["Flutter", "Express.js", "MongoDB", "REST"],
     "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/simbacourse.png",
     "screenshots": [],
+    "overview": "SimbaCourse is an education-management platform connecting admins, teachers, and students. As an SDE intern at SimbaQuartz I built it full-stack — from the data model and API to the mobile client.",
     "details": [
-      "**Product** — An education-management platform connecting admins, teachers, and students end to end.",
-      "**Full stack** — Built both frontend and backend from scratch: Flutter for the mobile client, Express.js + MongoDB for the API.",
-      "**Features** — Course creation, enrolment, progress tracking, and in-app communication across all three roles.",
-      "**My role** — Full-stack engineer (SDE intern) at SimbaQuartz, from data model to shipped app."
+      "**Full-stack ownership** — Built the mobile client in Flutter and the backend in Express.js + MongoDB, from the ground up.",
+      "**Features** — Course creation, enrolment, progress tracking, and in-app communication across admin, teacher, and student roles.",
+      "**Integration** — Wired the Flutter UI to REST APIs and MongoDB for smooth course and user management.",
+      "**My role** — End-to-end delivery during a six-month internship — data model, API, and shipped app."
     ]
   }
 ]
