@@ -68,5 +68,26 @@
     "level": 0.9,
     "description": "Designing scalable app structures with maintainable patterns.",
     "icon": "🏗️"
+  },
+  {
+    "category": "Backend & Cloud",
+    "name": "REST APIs & GraphQL",
+    "level": 0.85,
+    "description": "Designing and consuming REST and GraphQL APIs with efficient caching.",
+    "icon": "☁️"
+  },
+  {
+    "category": "AI & ML",
+    "name": "Machine Learning (Python, scikit-learn)",
+    "level": 0.7,
+    "description": "Building and evaluating ML models with Python and scikit-learn.",
+    "icon": "🤖"
+  },
+  {
+    "category": "Architecture & Design",
+    "name": "Git & CI/CD Workflows",
+    "level": 0.85,
+    "description": "Version control and automated build/deploy pipelines.",
+    "icon": "🏗️"
   }
 ]

@@ -7,8 +7,8 @@
     "cgpa": "7.47",
     "logo": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/institute_logos/lpu.png",
     "details": [
-      "Graduated with a strong foundation in computer science principles, data structures, and software development.",
-      "Worked on several practical projects involving Flutter, FastAPI, and Firebase.",
+      "Strong foundation in computer science principles, data structures, and software development.",
+      "Built several practical projects across Flutter, FastAPI, and Firebase.",
       "Participated in technical fests and hackathons representing LPU."
     ]
   },
@@ -20,9 +20,20 @@
     "cgpa": "8.56",
     "logo": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/institute_logos/lpu.png",
     "details": [
-      "Gained early exposure to programming, algorithms, and system design.",
-      "Built a solid base in core computer fundamentals and Java programming.",
-      "Developed a keen interest in mobile development and AI during diploma years."
+      "Early exposure to programming, algorithms, and system design.",
+      "Solid base in core computer fundamentals and Java programming.",
+      "Developed a keen interest in mobile development and AI."
+    ]
+  },
+  {
+    "degree": "Matriculation (Class X), CBSE",
+    "field": "Secondary Education",
+    "institution": "St. Michael's Academy, Bettiah, Bihar, India",
+    "duration": "2015 – 2016",
+    "cgpa": "7.2",
+    "logo": "",
+    "details": [
+      "Completed secondary schooling under the CBSE curriculum."
     ]
   }
 ]
