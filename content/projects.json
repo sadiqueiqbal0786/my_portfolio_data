@@ -117,7 +117,11 @@
       "AWS S3"
     ],
     "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/simbacourse.png",
-    "screenshots": [],
+    "screenshots": [
+      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/simbacourse_shots/dashboard.png",
+      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/simbacourse_shots/attendance.png",
+      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/simbacourse_shots/fees.png"
+    ],
     "overview": "SimbaCourse is an education-management platform that moves schools from pen-and-paper to software. Teachers take attendance online, students track their attendance in real time, and admins handle enrollment, fees, exams and courses — from one app that runs on both mobile and desktop. Over a six-month SDE internship at SimbaQuartz I built it full-stack: a Flutter (Provider) client, an Express.js + MongoDB backend, Firebase Auth, and AWS S3 for media.",
     "details": [
       "**From paper to software** — replaced manual pen-and-paper workflows: teachers take attendance online and students track their attendance in real time.",
