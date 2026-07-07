@@ -72,7 +72,7 @@
     "duration": "Dec 2023 – Oct 2024",
     "category": "Mobile",
     "role": "Software Engineer",
-    "summary": "A multilingual B2B platform connecting farmers directly with hotels and restaurants for crop and produce trading.",
+    "summary": "A multilingual B2B agriculture platform where admins send crop-specific sowing requests that farmers accept or reject — plus land allocation & inspection, price negotiation, irrigation, tasks, and in-app support.",
     "link": "",
     "demoUrl": "",
     "tech": [
@@ -82,13 +82,20 @@
       "Firebase"
     ],
     "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/agri-easy.jpeg",
-    "screenshots": [],
-    "overview": "AgreEasy is a B2B platform that connects farmers directly with hotels and restaurants for crop and produce trading. As a software engineer at The Internet Folks I built three core modules end to end — Authentication, Profile Management, and Land Registration — added multilingual support for regional farmers, and eliminated memory leaks and notification-delivery bugs on a GraphQL + Firebase stack.",
+    "screenshots": [
+      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/agreeasy_shots/home.png",
+      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/agreeasy_shots/sowing-request.png",
+      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/agreeasy_shots/add-farm.png",
+      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/agreeasy_shots/home-hindi.png"
+    ],
+    "overview": "AgreEasy is a multilingual B2B agriculture platform (iOS & Android) connecting farmers with buyers. Its core loop: an admin raises demand for specific crops and sends sowing requests to farmers, who accept or reject them. Around that sit land allocation and inspection, price negotiation, irrigation and task management, and in-app support with training. As a software engineer at The Internet Folks I built core farmer-facing modules end to end and hardened a live product.",
     "details": [
-      "**Modules I built** — Farmer Authentication, Profile Management, and Land Registration, implemented end to end.",
-      "**Localization** — Added multilingual support so the app works for regional farmers in their own language.",
-      "**Reliability** — Optimised the issue-reporting / ticketing system, fixed notification-delivery bugs, and eliminated memory leaks for smoother state handling.",
-      "**My role** — Feature development and stabilisation with BLoC state management on a GraphQL + Firebase stack."
+      "**Sowing requests (the core loop)** — admins raise demand for specific crops and send sowing requests to farmers, who review the crop, quantity, offered price and sowing window and **accept or reject** each request.",
+      "**Farm & land management** — farmer onboarding (auth, profile), an Add-Farm flow with soil, irrigation and government-ID fields (Tehsil/Block) plus validation, land allocation, and land-inspection workflows.",
+      "**Trade & operations** — price negotiation between farmers and buyers, irrigation facilities, and task tracking.",
+      "**Support & training** — in-app ticket raising with live chat for any issue, and embedded video demos to properly train farmers.",
+      "**Multilingual** — full localization (e.g., Hindi) so regional farmers use the app in their own language.",
+      "**Reliability & my role** — as a software engineer at The Internet Folks (iOS & Android) I optimised the ticketing system, fixed notification-delivery bugs, and eliminated memory leaks, with BLoC state management on a GraphQL + Firebase stack."
     ]
   },
   {
