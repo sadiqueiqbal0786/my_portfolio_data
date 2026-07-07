@@ -105,23 +105,26 @@
     "duration": "May 2023 – Nov 2023",
     "category": "Full-Stack",
     "role": "Full-Stack Engineer (Intern)",
-    "summary": "A full-stack education-management platform for admins, teachers, and students — built from the data model to a shipped mobile app.",
-    "link": "https://simbacourse.com/",
+    "summary": "A full-stack school platform replacing pen-and-paper — online attendance, real-time tracking, enrollment, fees & dues, online exams, and course management, on mobile and desktop.",
+    "link": "",
     "demoUrl": "",
     "tech": [
       "Flutter",
+      "Provider",
       "Express.js",
       "MongoDB",
-      "REST"
+      "Firebase Auth",
+      "AWS S3"
     ],
     "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/simbacourse.png",
     "screenshots": [],
-    "overview": "SimbaCourse is an education-management platform connecting admins, teachers, and students. Over a six-month SDE internship at SimbaQuartz I built it full-stack across all three roles — from the MongoDB data model and Express.js API to the shipped Flutter mobile client.",
+    "overview": "SimbaCourse is an education-management platform that moves schools from pen-and-paper to software. Teachers take attendance online, students track their attendance in real time, and admins handle enrollment, fees, exams and courses — from one app that runs on both mobile and desktop. Over a six-month SDE internship at SimbaQuartz I built it full-stack: a Flutter (Provider) client, an Express.js + MongoDB backend, Firebase Auth, and AWS S3 for media.",
     "details": [
-      "**Full-stack ownership** — Built the mobile client in Flutter and the backend in Express.js + MongoDB, from the ground up.",
-      "**Features** — Course creation, enrolment, progress tracking, and in-app communication across admin, teacher, and student roles.",
-      "**Integration** — Wired the Flutter UI to REST APIs and MongoDB for smooth course and user management.",
-      "**My role** — End-to-end delivery during a six-month internship — data model, API, and shipped app."
+      "**From paper to software** — replaced manual pen-and-paper workflows: teachers take attendance online and students track their attendance in real time.",
+      "**Student lifecycle** — student enrollment, fee payment, a dues tracker, and student–teacher relationship mapping.",
+      "**Academics** — online exams, course details, and domain & training management for the institution.",
+      "**Full-stack build** — a Flutter client (Provider state management) for both mobile and desktop; an Express.js + MongoDB backend; Firebase Auth for sign-in; and AWS S3 for file & media storage.",
+      "**My role** — end-to-end delivery over a six-month internship: data model, REST API, and the shipped cross-platform app."
     ]
   }
 ]
