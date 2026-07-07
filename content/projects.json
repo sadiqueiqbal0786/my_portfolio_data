@@ -158,9 +158,9 @@
     "overview": "RepoIntel is an open-source Python tool I built that analyzes a codebase once and stores a persistent, machine-readable repository memory — architecture, dependencies, conventions, relationships, and change impact — so every AI agent loads understanding in seconds instead of re-exploring from scratch. It exposes that memory over an MCP server (10 tools) for any MCP-compatible agent, and compresses a repo context ~190x (about 56k tokens of source to a ~290-token context pack).",
     "details": [
       "**The problem** — every AI coding agent re-explores a repo each session (READMEs, structure, dependencies, architecture), wasting tokens and time and reaching inconsistent understanding.",
-      "**Repository memory** —  fingerprints the project, runs dependency and inventory analysis, generates an architecture graph (imports/calls/inheritance), discovers conventions, and writes a persistent  store.",
+      "**Repository memory** — a single `repointel build` fingerprints the project, runs dependency and inventory analysis, generates an architecture graph (imports / calls / inheritance), discovers conventions, and writes a persistent `.repointel/` store.",
       "**MCP integration** — a built-in MCP server exposes 10 tools so Claude, Codex, Gemini or any MCP agent can consume the memory directly.",
-      "**Change-impact & explanation** — predicts the blast radius before editing a file, and explains a module purpose, consumers and risk — with no LLM calls.",
+      "**Change-impact & explanation** — predicts the blast radius before you edit a file, and explains a module's purpose, consumers and risk — with no LLM calls.",
       "**Engineering** — Python 3.12 + uv, a multi-language plugin system (add languages without touching core), incremental updates (re-analyze only what changed), and 89 passing tests; benchmarked at ~190x context reduction."
     ]
   }
