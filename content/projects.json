@@ -41,14 +41,14 @@
     "company": "The Internet Folks",
     "duration": "Dec 2023 – Oct 2024",
     "category": "Mobile",
-    "role": "Flutter Engineer",
+    "role": "Software Engineer",
     "summary": "A community fitness-challenge app — cycling and walking contests, leaderboards, and automated certificate generation.",
     "link": "",
     "demoUrl": "",
     "tech": [
       "Flutter",
       "GraphQL",
-      "BLoC / Riverpod",
+      "BLoC",
       "Firebase"
     ],
     "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/croozeapp_logo.jpeg",
@@ -57,12 +57,12 @@
       "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/crooze_shots/challenge.png",
       "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/crooze_shots/leaderboard.png"
     ],
-    "overview": "Crooze is a community-driven fitness app (iOS & Android) where users join admin-hosted cycling and walking challenges to earn rewards and certificates. As a Flutter engineer at The Internet Folks I shipped three challenge modules (Community, Club, Individual) plus leaderboards and automated certificates, then hardened a live product — cutting GraphQL over-fetching and resolving crash loops and Android Binder transaction failures.",
+    "overview": "Crooze is a community-driven fitness app (iOS & Android) where users join admin-hosted cycling and walking challenges to earn rewards and certificates. As a software engineer at The Internet Folks I shipped three challenge modules (Community, Club, Individual) plus leaderboards and automated certificates, then hardened a live product — cutting GraphQL over-fetching and resolving crash loops and Android Binder transaction failures.",
     "details": [
       "**Features I shipped** — Community, Club, and Individual challenge modules, a Leaderboard system, challenge-summary views, and automated certificate generation for challenge winners.",
       "**Performance via GraphQL** — Integrated GraphQL APIs and tuned queries to cut over-fetching across challenge and profile screens, reducing payloads and latency.",
       "**Stability engineering** — Diagnosed and fixed crash loops, null-reference crashes, and state inconsistencies; a notable fix was resolving **Android Binder transaction failures** by throttling isolate updates and optimising background data processing.",
-      "**My role** — Feature development and reliability work on a shipped consumer app, with BLoC/Riverpod state management on Firebase."
+      "**My role** — Feature development and reliability work on a shipped consumer app, with BLoC state management on Firebase."
     ]
   },
   {
@@ -71,24 +71,24 @@
     "company": "The Internet Folks",
     "duration": "Dec 2023 – Oct 2024",
     "category": "Mobile",
-    "role": "Flutter Engineer",
+    "role": "Software Engineer",
     "summary": "A multilingual B2B platform connecting farmers directly with hotels and restaurants for crop and produce trading.",
     "link": "",
     "demoUrl": "",
     "tech": [
       "Flutter",
       "GraphQL",
-      "Riverpod",
+      "BLoC",
       "Firebase"
     ],
     "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/agri-easy.jpeg",
     "screenshots": [],
-    "overview": "AgreEasy is a B2B platform that connects farmers directly with hotels and restaurants for crop and produce trading. As a Flutter engineer at The Internet Folks I built three core modules end to end — Authentication, Profile Management, and Land Registration — added multilingual support for regional farmers, and eliminated memory leaks and notification-delivery bugs on a GraphQL + Firebase stack.",
+    "overview": "AgreEasy is a B2B platform that connects farmers directly with hotels and restaurants for crop and produce trading. As a software engineer at The Internet Folks I built three core modules end to end — Authentication, Profile Management, and Land Registration — added multilingual support for regional farmers, and eliminated memory leaks and notification-delivery bugs on a GraphQL + Firebase stack.",
     "details": [
       "**Modules I built** — Farmer Authentication, Profile Management, and Land Registration, implemented end to end.",
       "**Localization** — Added multilingual support so the app works for regional farmers in their own language.",
       "**Reliability** — Optimised the issue-reporting / ticketing system, fixed notification-delivery bugs, and eliminated memory leaks for smoother state handling.",
-      "**My role** — Feature development and stabilisation with Riverpod state management on a GraphQL + Firebase stack."
+      "**My role** — Feature development and stabilisation with BLoC state management on a GraphQL + Firebase stack."
     ]
   },
   {
