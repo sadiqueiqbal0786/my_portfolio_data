@@ -9,7 +9,16 @@
     "summary": "A cross-platform AI productivity platform — a unified multi-provider calendar, a voice + text AI planning assistant, and live iOS Dynamic Island timers.",
     "link": "",
     "demoUrl": "",
-    "tech": ["Flutter", "Dart 3", "BLoC / Provider / Riverpod", "FastAPI", "Firebase", "Google ADK", "Genkit", "Syncfusion"],
+    "tech": [
+      "Flutter",
+      "Dart 3",
+      "BLoC / Provider / Riverpod",
+      "FastAPI",
+      "Firebase",
+      "Google ADK",
+      "Genkit",
+      "Syncfusion"
+    ],
     "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/mtd-logo.png",
     "screenshots": [
       "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/mtd_shots/dashboard.png",
@@ -36,10 +45,19 @@
     "summary": "A community fitness-challenge app — cycling and walking contests, leaderboards, and automated certificate generation.",
     "link": "",
     "demoUrl": "",
-    "tech": ["Flutter", "GraphQL", "BLoC / Riverpod", "Firebase"],
+    "tech": [
+      "Flutter",
+      "GraphQL",
+      "BLoC / Riverpod",
+      "Firebase"
+    ],
     "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/croozeapp_logo.jpeg",
-    "screenshots": [],
-    "overview": "Crooze is a community-driven fitness app where users join admin-hosted cycling and walking challenges to earn rewards and certificates. As a Flutter engineer at The Internet Folks I shipped three challenge modules (Community, Club, Individual) plus leaderboards and automated certificates, then hardened a live product — cutting GraphQL over-fetching and resolving crash loops and Android Binder transaction failures.",
+    "screenshots": [
+      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/crooze_shots/dashboard.png",
+      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/crooze_shots/challenge.png",
+      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/crooze_shots/leaderboard.png"
+    ],
+    "overview": "Crooze is a community-driven fitness app (iOS & Android) where users join admin-hosted cycling and walking challenges to earn rewards and certificates. As a Flutter engineer at The Internet Folks I shipped three challenge modules (Community, Club, Individual) plus leaderboards and automated certificates, then hardened a live product — cutting GraphQL over-fetching and resolving crash loops and Android Binder transaction failures.",
     "details": [
       "**Features I shipped** — Community, Club, and Individual challenge modules, a Leaderboard system, challenge-summary views, and automated certificate generation for challenge winners.",
       "**Performance via GraphQL** — Integrated GraphQL APIs and tuned queries to cut over-fetching across challenge and profile screens, reducing payloads and latency.",
@@ -57,7 +75,12 @@
     "summary": "A multilingual B2B platform connecting farmers directly with hotels and restaurants for crop and produce trading.",
     "link": "",
     "demoUrl": "",
-    "tech": ["Flutter", "GraphQL", "Riverpod", "Firebase"],
+    "tech": [
+      "Flutter",
+      "GraphQL",
+      "Riverpod",
+      "Firebase"
+    ],
     "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/agri-easy.jpeg",
     "screenshots": [],
     "overview": "AgreEasy is a B2B platform that connects farmers directly with hotels and restaurants for crop and produce trading. As a Flutter engineer at The Internet Folks I built three core modules end to end — Authentication, Profile Management, and Land Registration — added multilingual support for regional farmers, and eliminated memory leaks and notification-delivery bugs on a GraphQL + Firebase stack.",
@@ -78,7 +101,12 @@
     "summary": "A full-stack education-management platform for admins, teachers, and students — built from the data model to a shipped mobile app.",
     "link": "https://simbacourse.com/",
     "demoUrl": "",
-    "tech": ["Flutter", "Express.js", "MongoDB", "REST"],
+    "tech": [
+      "Flutter",
+      "Express.js",
+      "MongoDB",
+      "REST"
+    ],
     "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/simbacourse.png",
     "screenshots": [],
     "overview": "SimbaCourse is an education-management platform connecting admins, teachers, and students. Over a six-month SDE internship at SimbaQuartz I built it full-stack across all three roles — from the MongoDB data model and Express.js API to the shipped Flutter mobile client.",
