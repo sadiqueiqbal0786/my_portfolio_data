@@ -22,7 +22,10 @@
     "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/mtd-logo.png",
     "screenshots": [
       "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/mtd_shots/dashboard.png",
-      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/mtd_shots/dashboard-mobile.png"
+      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/mtd_shots/my-day.png",
+      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/mtd_shots/pillars.png",
+      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/mtd_shots/schedule.png",
+      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/mtd_shots/timer.png"
     ],
     "overview": "MTD is a production-grade productivity platform I lead as the Flutter engineer at Connecting Points Tech. A single Flutter codebase ships to iOS, Android, and Web; it unifies four external calendar providers, runs a voice + text AI planning assistant, and drives live iOS Dynamic Island timers — bringing a person's entire day (tasks, projects, goals, and time) into one place.",
     "details": [
