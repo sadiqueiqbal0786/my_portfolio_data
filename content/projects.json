@@ -15,7 +15,7 @@
       "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/mtd_shots/dashboard.png",
       "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/mtd_shots/dashboard-mobile.png"
     ],
-    "overview": "MTD is a production-grade productivity platform I lead as the Flutter engineer at Connecting Points Tech. It runs on iOS, Android, and Web from a single Flutter codebase and brings a person's entire day — tasks, projects, goals, and time — into one place, with an AI assistant that plans and schedules on their behalf.",
+    "overview": "MTD is a production-grade productivity platform I lead as the Flutter engineer at Connecting Points Tech. A single Flutter codebase ships to iOS, Android, and Web; it unifies four external calendar providers, runs a voice + text AI planning assistant, and drives live iOS Dynamic Island timers — bringing a person's entire day (tasks, projects, goals, and time) into one place.",
     "details": [
       "**The problem** — People juggle their day across disconnected tools: tasks in one app; Google, Apple, Outlook and the phone's own calendar in others; goals and time-tracking nowhere at all. Planning means manually reconciling all of it, every day.",
       "**Unified multi-provider calendar** — The hardest and most distinctive piece. I built a single calendar surface (on Syncfusion) that merges MTD's own events with **Google Calendar, Apple/iCloud via CalDAV, Microsoft 365 via Graph, and on-device iOS via EventKit** — each with different auth and sync semantics — into one colour-coded view supporting drag-and-drop, resizing, recurrence, and timezone-correct scheduling.",
@@ -39,7 +39,7 @@
     "tech": ["Flutter", "GraphQL", "BLoC / Riverpod", "Firebase"],
     "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/croozeapp_logo.jpeg",
     "screenshots": [],
-    "overview": "Crooze is a community-driven fitness app where users join admin-hosted cycling and walking challenges to earn rewards and certificates. I worked on it as a Flutter engineer at The Internet Folks, delivering features and hardening a live product.",
+    "overview": "Crooze is a community-driven fitness app where users join admin-hosted cycling and walking challenges to earn rewards and certificates. As a Flutter engineer at The Internet Folks I shipped three challenge modules (Community, Club, Individual) plus leaderboards and automated certificates, then hardened a live product — cutting GraphQL over-fetching and resolving crash loops and Android Binder transaction failures.",
     "details": [
       "**Features I shipped** — Community, Club, and Individual challenge modules, a Leaderboard system, challenge-summary views, and automated certificate generation for challenge winners.",
       "**Performance via GraphQL** — Integrated GraphQL APIs and tuned queries to cut over-fetching across challenge and profile screens, reducing payloads and latency.",
@@ -60,7 +60,7 @@
     "tech": ["Flutter", "GraphQL", "Riverpod", "Firebase"],
     "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/agri-easy.jpeg",
     "screenshots": [],
-    "overview": "AgreEasy is a B2B platform that connects farmers directly with hotels and restaurants for crop and produce trading. I built core onboarding and reliability features as a Flutter engineer at The Internet Folks.",
+    "overview": "AgreEasy is a B2B platform that connects farmers directly with hotels and restaurants for crop and produce trading. As a Flutter engineer at The Internet Folks I built three core modules end to end — Authentication, Profile Management, and Land Registration — added multilingual support for regional farmers, and eliminated memory leaks and notification-delivery bugs on a GraphQL + Firebase stack.",
     "details": [
       "**Modules I built** — Farmer Authentication, Profile Management, and Land Registration, implemented end to end.",
       "**Localization** — Added multilingual support so the app works for regional farmers in their own language.",
@@ -81,7 +81,7 @@
     "tech": ["Flutter", "Express.js", "MongoDB", "REST"],
     "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/simbacourse.png",
     "screenshots": [],
-    "overview": "SimbaCourse is an education-management platform connecting admins, teachers, and students. As an SDE intern at SimbaQuartz I built it full-stack — from the data model and API to the mobile client.",
+    "overview": "SimbaCourse is an education-management platform connecting admins, teachers, and students. Over a six-month SDE internship at SimbaQuartz I built it full-stack across all three roles — from the MongoDB data model and Express.js API to the shipped Flutter mobile client.",
     "details": [
       "**Full-stack ownership** — Built the mobile client in Flutter and the backend in Express.js + MongoDB, from the ground up.",
       "**Features** — Course creation, enrolment, progress tracking, and in-app communication across admin, teacher, and student roles.",
