@@ -29,13 +29,14 @@
     ],
     "overview": "MTD is a production-grade productivity platform I lead as the Flutter engineer at Connecting Points Tech. A single Flutter codebase ships to iOS, Android, and Web; it unifies four external calendar providers, runs a voice + text AI planning assistant, and drives live iOS Dynamic Island timers — bringing a person's entire day (tasks, projects, goals, and time) into one place.",
     "details": [
-      "**The problem** — People juggle their day across disconnected tools: tasks in one app; Google, Apple, Outlook and the phone's own calendar in others; goals and time-tracking nowhere at all. Planning means manually reconciling all of it, every day.",
-      "**Unified multi-provider calendar** — The hardest and most distinctive piece. I built a single calendar surface (on Syncfusion) that merges MTD's own events with **Google Calendar, Apple/iCloud via CalDAV, Microsoft 365 via Graph, and on-device iOS via EventKit** — each with different auth and sync semantics — into one colour-coded view supporting drag-and-drop, resizing, recurrence, and timezone-correct scheduling.",
-      "**Live iOS activities** — Integrated **ActivityKit / Live Activities** so an active focus timer shows live on the Dynamic Island and lock screen, mirrored with a native Android background service — keeping the current task visible without opening the app.",
-      "**Voice + text AI assistant** — An in-app assistant (FastAPI + **Google Agent Development Kit**, Genkit, and Firebase Functions) that takes natural language — by text or voice — and manages tasks, events, goals, and pillars, and **auto-schedules** work onto the calendar via tool-calling.",
-      "**Full productivity system** — Task Cloud (kanban with subtasks and drag-to-schedule), Pillars and Goals for life-area planning, Projects, Focus Time / Time Boxing, Time Entries, and a Reporting view with per-pillar analytics (tracked vs target, efficiency, active days).",
-      "**Architecture** — A single Flutter (Dart 3) codebase with layered state management: **BLoC** for long-lived global state, **Provider** for UI-reactive state (timers, network status), and **Riverpod** for MCP tokens and audit logs. Firebase handles Auth, Firestore (real-time sync), Storage, and Analytics; a **FastAPI** backend is reached over REST via Dio.",
-      "**My role & impact** — I own the Flutter architecture and the platform-specific hard problems — cross-provider calendar sync, Live Activities, real-time data flow, and the assistant's client integration — taking features from design to a shipped, production cross-platform product."
+      "**The problem** — People run their day across disconnected tools: tasks in one app; Google, Apple, Outlook and the phone's own calendar in others; goals and time-tracking nowhere at all. Every day starts with manually reconciling all of it.",
+      "**Unified multi-provider calendar** — the hardest, most distinctive piece. I built one calendar surface (on Syncfusion) that merges MTD's own events with Google Calendar, Apple/iCloud via CalDAV, Microsoft 365 via Graph and on-device iOS via EventKit — each with different auth, token-refresh and sync semantics — into a single colour-coded view with drag-and-drop, resize, recurrence and timezone-correct scheduling.",
+      "**Two-way sync & conflict handling** — edits in MTD write back to the source provider and vice-versa; I handled token refresh, pagination, deleted/moved events and per-provider quirks so the merged view stays consistent.",
+      "**Live iOS activities** — integrated ActivityKit / Live Activities so an active focus timer shows live on the Dynamic Island and lock screen, mirrored by a native Android foreground service — the current task stays visible without opening the app.",
+      "**Voice + text AI assistant** — an in-app assistant (FastAPI + Google Agent Development Kit, Genkit and Firebase Functions) that takes natural language by text or voice and manages tasks, events, goals and pillars — and auto-schedules work onto the calendar through tool-calling.",
+      "**Full productivity system** — Task Cloud (kanban with subtasks and drag-to-schedule), Pillars & Goals for life-area planning, Projects, Focus Time / time-boxing, Time Entries, and a Reporting view with per-pillar analytics (tracked vs target, efficiency, active days).",
+      "**Architecture** — one Flutter (Dart 3) codebase for iOS, Android and Web with layered state: BLoC for long-lived global state, Provider for UI-reactive state (timers, connectivity) and Riverpod for MCP tokens and audit logs; Firebase for Auth, Firestore real-time sync, Storage and Analytics; a FastAPI backend over Dio.",
+      "**My role** — I own the Flutter architecture and the platform-specific hard problems — cross-provider calendar sync, Live Activities, real-time data flow and the assistant's client integration — taking features from design to a shipped, production cross-platform product."
     ]
   },
   {
@@ -62,10 +63,13 @@
     ],
     "overview": "Crooze is a community-driven fitness app (iOS & Android) where users join admin-hosted cycling and walking challenges to earn rewards and certificates. As a software engineer at The Internet Folks I shipped three challenge modules (Community, Club, Individual) plus leaderboards and automated certificates, then hardened a live product — cutting GraphQL over-fetching and resolving crash loops and Android Binder transaction failures.",
     "details": [
-      "**Features I shipped** — Community, Club, and Individual challenge modules, a Leaderboard system, challenge-summary views, and automated certificate generation for challenge winners.",
-      "**Performance via GraphQL** — Integrated GraphQL APIs and tuned queries to cut over-fetching across challenge and profile screens, reducing payloads and latency.",
-      "**Stability engineering** — Diagnosed and fixed crash loops, null-reference crashes, and state inconsistencies; a notable fix was resolving **Android Binder transaction failures** by throttling isolate updates and optimising background data processing.",
-      "**My role** — Feature development and reliability work on a shipped consumer app, with BLoC state management on Firebase."
+      "**Context** — Crooze is a community fitness app where admins host cycling and walking challenges and users compete for rewards and certificates; I joined to ship features and harden a live product.",
+      "**Three challenge modes** — built Community, Club and Individual challenges end to end, each with its own enrolment rules, leaderboards and challenge-summary views.",
+      "**Leaderboards & certificates** — leaderboards ranking participants by distance and points, plus automated certificate generation for challenge winners.",
+      "**GraphQL performance** — integrated and tuned GraphQL queries to cut over-fetching across challenge and profile screens (fetching only the fields each screen needs), reducing payloads and latency.",
+      "**Stability engineering** — diagnosed and fixed crash loops, null-reference crashes and state inconsistencies on a live app; a notable one was resolving **Android Binder transaction failures** by throttling isolate updates and optimising background data processing.",
+      "**Architecture** — BLoC state management on a Firebase backend, structured for a shipped consumer app across iOS and Android.",
+      "**My role** — feature development and reliability work as a software engineer at The Internet Folks."
     ]
   },
   {
@@ -127,11 +131,13 @@
     ],
     "overview": "SimbaCourse is an education-management platform that moves schools from pen-and-paper to software. Teachers take attendance online, students track their attendance in real time, and admins handle enrollment, fees, exams and courses — from one app that runs on both mobile and desktop. Over a six-month SDE internship at SimbaQuartz I built it full-stack: a Flutter (Provider) client, an Express.js + MongoDB backend, Firebase Auth, and AWS S3 for media.",
     "details": [
-      "**From paper to software** — replaced manual pen-and-paper workflows: teachers take attendance online and students track their attendance in real time.",
-      "**Student lifecycle** — student enrollment, fee payment, a dues tracker, and student–teacher relationship mapping.",
-      "**Academics** — online exams, course details, and domain & training management for the institution.",
-      "**Full-stack build** — a Flutter client (Provider state management) for both mobile and desktop; an Express.js + MongoDB backend; Firebase Auth for sign-in; and AWS S3 for file & media storage.",
-      "**My role** — end-to-end delivery over a six-month internship: data model, REST API, and the shipped cross-platform app."
+      "**From paper to software** — replaced manual pen-and-paper school workflows with a single platform serving admins, teachers and students.",
+      "**Attendance** — teachers mark attendance online per class; students see their attendance update in real time, with per-subject and overall percentages.",
+      "**Enrollment & fees** — student enrollment, fee payment and a dues tracker that surfaces what's outstanding and when.",
+      "**Academics** — online exams, course details and content, and domain & training management for the institution.",
+      "**Role-based experiences** — distinct admin, teacher and student flows over a shared data model.",
+      "**Full-stack build** — a Flutter client (Provider state management) for mobile and desktop; an Express.js + MongoDB backend; Firebase Auth for sign-in; and AWS S3 for file and media storage.",
+      "**My role** — end-to-end delivery over a six-month internship: data model, REST API and the shipped cross-platform app."
     ]
   },
   {
