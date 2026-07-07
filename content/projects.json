@@ -78,7 +78,7 @@
     "tech": [
       "Flutter",
       "GraphQL",
-      "BLoC",
+      "Riverpod",
       "Firebase"
     ],
     "thumbnail": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/project_thumbnails/agri-easy.jpeg",
@@ -95,7 +95,7 @@
       "**Trade & operations** — price negotiation between farmers and buyers, irrigation facilities, and task tracking.",
       "**Support & training** — in-app ticket raising with live chat for any issue, and embedded video demos to properly train farmers.",
       "**Multilingual** — full localization (e.g., Hindi) so regional farmers use the app in their own language.",
-      "**Reliability & my role** — as a software engineer at The Internet Folks (iOS & Android) I optimised the ticketing system, fixed notification-delivery bugs, and eliminated memory leaks, with BLoC state management on a GraphQL + Firebase stack."
+      "**Reliability & my role** — as a software engineer at The Internet Folks (iOS & Android) I optimised the ticketing system, fixed notification-delivery bugs, and eliminated memory leaks, with Riverpod state management on a GraphQL + Firebase stack."
     ]
   },
   {
