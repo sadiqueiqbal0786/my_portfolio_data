@@ -133,5 +133,35 @@
       "**Full-stack build** — a Flutter client (Provider state management) for both mobile and desktop; an Express.js + MongoDB backend; Firebase Auth for sign-in; and AWS S3 for file & media storage.",
       "**My role** — end-to-end delivery over a six-month internship: data model, REST API, and the shipped cross-platform app."
     ]
+  },
+  {
+    "id": "repointel",
+    "title": "RepoIntel — Repository Intelligence for AI Agents",
+    "company": "Open Source",
+    "duration": "2026",
+    "category": "AI",
+    "role": "Creator",
+    "summary": "An intelligence layer that builds persistent, machine-readable repository memory so AI agents skip rediscovery — exposed over MCP, ~190x smaller context than raw source.",
+    "link": "https://github.com/sadiqueiqbal0786/Repository-Intelligence-Layer-for-AI-Agents",
+    "demoUrl": "",
+    "tech": [
+      "Python 3.12",
+      "MCP",
+      "AST Analysis",
+      "pytest",
+      "uv"
+    ],
+    "thumbnail": "",
+    "screenshots": [
+      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/repointel_shots/architecture.png"
+    ],
+    "overview": "RepoIntel is an open-source Python tool I built that analyzes a codebase once and stores a persistent, machine-readable repository memory — architecture, dependencies, conventions, relationships, and change impact — so every AI agent loads understanding in seconds instead of re-exploring from scratch. It exposes that memory over an MCP server (10 tools) for any MCP-compatible agent, and compresses a repo context ~190x (about 56k tokens of source to a ~290-token context pack).",
+    "details": [
+      "**The problem** — every AI coding agent re-explores a repo each session (READMEs, structure, dependencies, architecture), wasting tokens and time and reaching inconsistent understanding.",
+      "**Repository memory** —  fingerprints the project, runs dependency and inventory analysis, generates an architecture graph (imports/calls/inheritance), discovers conventions, and writes a persistent  store.",
+      "**MCP integration** — a built-in MCP server exposes 10 tools so Claude, Codex, Gemini or any MCP agent can consume the memory directly.",
+      "**Change-impact & explanation** — predicts the blast radius before editing a file, and explains a module purpose, consumers and risk — with no LLM calls.",
+      "**Engineering** — Python 3.12 + uv, a multi-language plugin system (add languages without touching core), incremental updates (re-analyze only what changed), and 89 passing tests; benchmarked at ~190x context reduction."
+    ]
   }
 ]
