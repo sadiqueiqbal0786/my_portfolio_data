@@ -36,9 +36,9 @@
   },
   {
     "category": "AI Agents & LLMs",
-    "name": "LLMs · Hugging Face · Transformers",
+    "name": "LLMs · NLP · Mistral · Llama · Transformers",
     "level": 0.8,
-    "description": "Integrating and applying large language models and transformer architectures.",
+    "description": "Building with open LLMs (Mistral, Llama) and Hugging Face transformers for NLP — sentiment analysis, summarization, and RAG.",
     "icon": "🤖"
   },
   {
@@ -50,9 +50,9 @@
   },
   {
     "category": "Machine Learning & Data",
-    "name": "Model Training & Tuning (Python & R)",
+    "name": "Model Training, Tuning & Forecasting (Python & R)",
     "level": 0.8,
-    "description": "Training and tuning ML models end to end with scikit-learn and TensorFlow.",
+    "description": "Training and tuning ML models end to end with scikit-learn and TensorFlow, including forecasting and predictive modelling.",
     "icon": "📊"
   },
   {

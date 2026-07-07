@@ -163,5 +163,63 @@
       "**Change-impact & explanation** — predicts the blast radius before you edit a file, and explains a module's purpose, consumers and risk — with no LLM calls.",
       "**Engineering** — Python 3.12 + uv, a multi-language plugin system (add languages without touching core), incremental updates (re-analyze only what changed), and 89 passing tests; benchmarked at ~190x context reduction."
     ]
+  },
+  {
+    "id": "pc-health",
+    "title": "PC Health Diagnostic Tool",
+    "company": "Open Source",
+    "duration": "2026",
+    "category": "Systems",
+    "role": "Creator",
+    "link": "https://github.com/sadiqueiqbal0786/pc_health_diagnostic_tool",
+    "demoUrl": "",
+    "tech": [
+      "Flutter",
+      "C++",
+      "Dart FFI",
+      "CMake",
+      "Desktop"
+    ],
+    "thumbnail": "",
+    "screenshots": [
+      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/pchealth_shots/architecture.png"
+    ],
+    "summary": "A cross-platform desktop diagnostics app — a Flutter UI over a native C++ engine via Dart FFI: system scans, live monitoring, guided hardware tests, and exportable reports.",
+    "overview": "PC Health Diagnostic Tool is an open-source desktop app I built that pairs a Flutter UI with a shared native C++ diagnostics core over Dart FFI. It runs quick and full system-health scans, live performance and device monitoring, and guided hardware and system tests, and exports diagnostic reports as JSON, text, or HTML — on Windows, Linux, and macOS.",
+    "details": [
+      "**Architecture** — a Flutter app (screens / services / models) calls a native C++ diagnostics engine through a Dart FFI bridge, with a platform layer wiring up the desktop targets.",
+      "**Diagnostics core (C++)** — modules, rules, and test orchestration drive quick and full scans plus guided hardware and system tests.",
+      "**Monitoring & reports** — live performance and device monitoring, with exportable reports in JSON, text, and HTML.",
+      "**Cross-platform desktop** — Windows, Linux, and macOS from one codebase, with incremental updates.",
+      "**My role** — sole author: the Flutter UI, the Dart FFI bridge, and the native C++ diagnostics engine."
+    ]
+  },
+  {
+    "id": "vehicle-detection",
+    "title": "Vehicle Detection & Counting",
+    "company": "Personal Project",
+    "duration": "2022",
+    "category": "AI",
+    "role": "Creator",
+    "link": "https://github.com/sadiqueiqbal0786/Vehicle-Detection-and-counting",
+    "demoUrl": "",
+    "tech": [
+      "Python",
+      "OpenCV",
+      "Computer Vision",
+      "NumPy"
+    ],
+    "thumbnail": "",
+    "screenshots": [
+      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/vehicle_shots/detection.png"
+    ],
+    "summary": "A computer-vision pipeline that detects moving vehicles in traffic video and counts them as they cross a virtual line, with a live on-screen counter.",
+    "overview": "A computer-vision project that detects moving vehicles in traffic footage and counts them as they cross a virtual line. Built in Python with OpenCV, it processes video frames, isolates moving objects, tracks them across frames, and increments a live on-screen counter — demonstrating classical CV and real-time video processing.",
+    "details": [
+      "**Pipeline** — per-frame processing with background subtraction to isolate moving vehicles, followed by contour detection and centroid tracking across frames.",
+      "**Counting** — a virtual counting line increments the vehicle count as tracked objects cross it, rendered live over the video.",
+      "**Stack** — Python, OpenCV and NumPy, in a Jupyter notebook plus a runnable script.",
+      "**My role** — end-to-end: the detection and tracking pipeline and the counting overlay."
+    ]
   }
 ]
