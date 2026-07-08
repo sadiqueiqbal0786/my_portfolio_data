@@ -5,11 +5,11 @@
     "duration": "Jun 2024 – Present",
     "logo": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/companies_logo/connecting_points_tech.jpeg",
     "details": [
-      "Leading Flutter development of **Manage The Day (MTD)**, a production-grade, cross-platform AI productivity platform (iOS, Android, and Web) built from a single codebase.",
-      "Engineered a **unified multi-provider calendar** (Google, Apple/CalDAV, Microsoft 365, and on-device iOS EventKit) with drag & drop, recurrence, and colour-coded cross-calendar sync.",
-      "Integrated **iOS Live Activities & ActivityKit** (Dynamic Island + lock-screen timers) and optimised Android background services for real-time task tracking.",
-      "Built an in-app **AI assistant** (FastAPI + Google Agent Development Kit / Genkit + Firebase Functions) for natural-language task, goal, and project management.",
-      "Owns app architecture (BLoC, Provider, Riverpod) and real-time data flow across Firebase Auth, Firestore, Storage, and FastAPI backends."
+      "Work across the stack on **Manage The Day (MTD)** — a production AI productivity platform on iOS, Android, Web and Desktop, plus its FastAPI backend and an AI planning assistant.",
+      "Engineered a **unified multi-provider calendar** merging Google, Apple/CalDAV, Microsoft 365 and on-device iOS (EventKit) into one colour-coded view with drag-and-drop, recurrence and two-way sync.",
+      "Integrated **iOS Live Activities / ActivityKit** (Dynamic Island + lock-screen timers) with a mirrored Android foreground service for real-time task tracking.",
+      "Built the in-app **AI assistant** (FastAPI + Google ADK / Genkit + Firebase Functions) that manages tasks, goals and projects from natural language and auto-schedules them onto the calendar.",
+      "Own the app architecture (BLoC · Provider · Riverpod) and real-time data flow across Firebase Auth, Firestore, Storage and the FastAPI backend."
     ]
   },
   {
@@ -18,23 +18,23 @@
     "duration": "Dec 2023 – Oct 2024",
     "logo": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/companies_logo/the_internet_folks.png",
     "details": [
-      "Led end-to-end development of Flutter + GraphQL applications for SaaS clients, focused on stability, scalability, and rich user experiences.",
-      "Built **Crooze**, a community fitness-challenge app — community/club/individual challenges, leaderboards, certificate generation — and fixed crash loops and state inconsistencies.",
-      "Worked on **AgreEasy**, a multilingual B2B agriculture platform connecting farmers with hotels and restaurants — localization, network reliability, and notification flow.",
-      "Debugged Binder transaction failures by throttling isolate updates and optimising background data processing.",
-      "Used **GraphQL** for efficient data fetching and improved caching, reducing API latency and payloads."
+      "Shipped features and hardened live **Flutter + GraphQL** products for SaaS clients across iOS and Android.",
+      "Built **Crooze** (community fitness challenges) — community/club/individual challenges, leaderboards and automated certificates — and fixed crash loops and state inconsistencies.",
+      "Built farmer-facing modules for **AgreEasy** (multilingual B2B agriculture) — sowing requests, land registration, localization and notification reliability.",
+      "Resolved **Android Binder transaction failures** by throttling isolate updates and optimising background data processing.",
+      "Tuned **GraphQL** queries and caching to cut over-fetching, reducing API latency and payload sizes."
     ]
   },
   {
-    "role": "Software Development Engineer Intern",
+    "role": "Software Engineer Intern",
     "company": "SimbaQuartz Pvt. Ltd.",
     "duration": "May 2023 – Nov 2023",
     "logo": "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/MY_Portfolio_data/assets/companies_logo/simbaquartz.jpeg",
     "details": [
-      "Built **SimbaCourse**, an education-management platform (Flutter + Express.js + MongoDB) — handled both frontend and backend from scratch.",
-      "Delivered course creation, enrolment, progress tracking, and communication across admin, teacher, and student roles.",
-      "Contributed to full-stack projects across Java, Flutter, and React for enterprise clients.",
-      "Gained professional workflow experience — code reviews, CI/CD pipelines, and agile development."
+      "Built **SimbaCourse** end to end — a Flutter (mobile + desktop) client with an Express.js + MongoDB backend, Firebase Auth and AWS S3 for media.",
+      "Delivered attendance, enrolment, fees, exams and course management across admin, teacher and student roles.",
+      "Owned both frontend and backend: the data model, REST APIs and the shipped cross-platform app.",
+      "Worked in a professional engineering workflow — code reviews, CI/CD and agile delivery."
     ]
   },
   {
@@ -43,9 +43,9 @@
     "duration": "Jan 2023 – May 2023",
     "logo": "",
     "details": [
-      "Completed EPAM's six-month campus training in Advanced Java and Spring Boot.",
-      "Built impactful practical projects including a quiz application and an e-commerce web application.",
-      "Applied core backend and OOP concepts to real-world, professional-grade solutions."
+      "Completed EPAM's six-month campus program in **Advanced Java and Spring Boot**.",
+      "Built Spring Boot REST projects — a quiz application and an e-commerce web app — applying OOP, layered architecture and JPA/Hibernate.",
+      "Practised professional engineering fundamentals: clean code, version control and code review."
     ]
   }
 ]
