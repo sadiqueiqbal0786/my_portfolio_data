@@ -215,7 +215,9 @@
     ],
     "thumbnail": "",
     "screenshots": [
-      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/pchealth_shots/architecture.png"
+      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/pchealth_shots/architecture.png",
+      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/pchealth_shots/dashboard.png",
+      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/pchealth_shots/live-testing.png"
     ],
     "summary": "A cross-platform desktop diagnostics app — a Flutter UI over a native C++ engine via Dart FFI: system scans, live monitoring, guided hardware tests, and exportable reports.",
     "overview": "PC Health Diagnostic Tool is an open-source desktop app I built that pairs a Flutter UI with a shared native C++ diagnostics core over Dart FFI. It runs quick and full system-health scans, live performance and device monitoring, and guided hardware and system tests, and exports diagnostic reports as JSON, text, or HTML — on Windows, Linux, and macOS.",
