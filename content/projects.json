@@ -109,12 +109,15 @@
     ],
     "overview": "AgreEasy is a multilingual B2B agriculture platform (iOS & Android) connecting farmers with buyers. Its core loop: an admin raises demand for specific crops and sends sowing requests to farmers, who accept or reject them. Around that sit land allocation and inspection, price negotiation, irrigation and task management, and in-app support with training. As a software engineer at The Internet Folks I built core farmer-facing modules end to end and hardened a live product.",
     "details": [
-      "**Sowing requests (the core loop)** — admins raise demand for specific crops and send sowing requests to farmers, who review the crop, quantity, offered price and sowing window and **accept or reject** each request.",
-      "**Farm & land management** — farmer onboarding (auth, profile), an Add-Farm flow with soil, irrigation and government-ID fields (Tehsil/Block) plus validation, land allocation, and land-inspection workflows.",
-      "**Trade & operations** — price negotiation between farmers and buyers, irrigation facilities, and task tracking.",
-      "**Support & training** — in-app ticket raising with live chat for any issue, and embedded video demos to properly train farmers.",
-      "**Multilingual** — full localization (e.g., Hindi) so regional farmers use the app in their own language.",
-      "**Reliability & my role** — as a software engineer at The Internet Folks (iOS & Android) I optimised the ticketing system, fixed notification-delivery bugs, and eliminated memory leaks, with Riverpod state management on a GraphQL + Firebase stack."
+      "**The problem** — farm-to-business trade runs on informal, ad-hoc deals: buyers have no structured way to signal crop demand, agree a price, or trust that land and produce are real. AgreEasy digitises the whole loop between farmers and buyers (hotels, restaurants and wholesalers).",
+      "**Sowing requests — the core loop** — an admin raises demand for a specific crop and sends a sowing request to matched farmers; each farmer reviews the crop, quantity, offered price, sowing window and location and **accepts or rejects** it, turning raw demand into committed supply.",
+      "**Land allocation & inspection** — farmers register land and allocate specific plots to crops; a land-inspection workflow verifies each plot (soil, irrigation, government-ID details) before it's approved against a request.",
+      "**Farmer onboarding** — authentication, profile management and an Add-Farm flow capturing soil type, irrigation method and government-ID fields (Tehsil / Block) with validation — built end to end.",
+      "**Price negotiation** — an in-app negotiation flow lets farmers and buyers settle on a crop price before commitment, so both sides agree terms up front.",
+      "**Irrigation & task management** — irrigation-facility tracking and farm task management keep an accepted crop on schedule through the season.",
+      "**In-app support with live chat** — farmers raise tickets for any issue and resolve them over live chat, and embedded video demos train first-time users directly inside the app.",
+      "**Multilingual for the last mile** — full localization (e.g., Hindi) so regional farmers use the entire app in their own language — essential for real adoption in rural India.",
+      "**Reliability & my role** — as a software engineer at The Internet Folks (iOS & Android) I built these farmer-facing modules end to end, optimised the ticketing system, fixed notification-delivery bugs and eliminated memory leaks — with Riverpod state management on a GraphQL + Firebase stack."
     ],
     "platforms": [
       "iOS",
@@ -222,10 +225,11 @@
     "summary": "A cross-platform desktop diagnostics app — a Flutter UI over a native C++ engine via Dart FFI: system scans, live monitoring, guided hardware tests, and exportable reports.",
     "overview": "PC Health Diagnostic Tool is an open-source desktop app I built that pairs a Flutter UI with a shared native C++ diagnostics core over Dart FFI. It runs quick and full system-health scans, live performance and device monitoring, and guided hardware and system tests, and exports diagnostic reports as JSON, text, or HTML — on Windows, Linux, and macOS.",
     "details": [
+      "**Context** — diagnosing a PC's health usually means juggling several scattered utilities; PC Health brings scans, live monitoring and guided hardware tests into one clean cross-platform desktop app.",
       "**Architecture** — a Flutter app (screens / services / models) calls a native C++ diagnostics engine through a Dart FFI bridge, with a platform layer wiring up the desktop targets.",
-      "**Diagnostics core (C++)** — modules, rules, and test orchestration drive quick and full scans plus guided hardware and system tests.",
-      "**Monitoring & reports** — live performance and device monitoring, with exportable reports in JSON, text, and HTML.",
-      "**Cross-platform desktop** — Windows, Linux, and macOS from one codebase, with incremental updates.",
+      "**Diagnostics core (C++)** — modules, rules and test orchestration drive quick and full scans plus guided hardware and system tests.",
+      "**Live monitoring & reports** — real-time performance and device monitoring (CPU, memory, temperatures, disk), with exportable diagnostic reports in JSON, text and HTML.",
+      "**Cross-platform desktop** — Windows, Linux and macOS from one codebase, with incremental updates.",
       "**My role** — sole author: the Flutter UI, the Dart FFI bridge, and the native C++ diagnostics engine."
     ],
     "platforms": [
@@ -256,9 +260,11 @@
     "summary": "A computer-vision pipeline that detects moving vehicles in traffic video and counts them as they cross a virtual line, with a live on-screen counter.",
     "overview": "A computer-vision project that detects moving vehicles in traffic footage and counts them as they cross a virtual line. Built in Python with OpenCV, it processes video frames, isolates moving objects, tracks them across frames, and increments a live on-screen counter — demonstrating classical CV and real-time video processing.",
     "details": [
-      "**Pipeline** — per-frame processing with background subtraction to isolate moving vehicles, followed by contour detection and centroid tracking across frames.",
-      "**Counting** — a virtual counting line increments the vehicle count as tracked objects cross it, rendered live over the video.",
-      "**Stack** — Python, OpenCV and NumPy, in a Jupyter notebook plus a runnable script.",
+      "**Context** — counting vehicles from traffic footage by hand is slow and error-prone; automated counting is a classic computer-vision problem with real use in traffic monitoring and planning.",
+      "**Detection pipeline** — each frame runs background subtraction to isolate moving vehicles, morphological cleanup to remove noise, then contour detection to find vehicle blobs.",
+      "**Tracking & counting** — blob centroids are tracked frame to frame; a virtual counting line increments the tally as a tracked vehicle crosses it, rendered live over the video with an on-screen counter.",
+      "**What it demonstrates** — real-time video processing and classical computer vision (no deep learning needed), with clean OpenCV / NumPy code.",
+      "**Stack** — Python, OpenCV and NumPy, in a Jupyter notebook plus a runnable script with sample footage.",
       "**My role** — end-to-end: the detection and tracking pipeline and the counting overlay."
     ],
     "platforms": [
