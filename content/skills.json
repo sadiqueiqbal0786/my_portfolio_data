@@ -15,9 +15,9 @@
   },
   {
     "category": "Mobile & Frontend",
-    "name": "In-App Purchases & Paywalls (RevenueCat)",
+    "name": "Cross-Platform Payments & Paywalls (RevenueCat · Stripe)",
     "level": 0.85,
-    "description": "Subscription paywalls and in-app purchases with RevenueCat — entitlements, restore and store integration.",
+    "description": "One monetization layer across platforms — in-app purchases on mobile and Stripe on web & desktop, with entitlements and restore.",
     "icon": "📱"
   },
   {

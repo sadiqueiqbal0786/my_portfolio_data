@@ -36,7 +36,7 @@
       "**Voice + text AI assistant** — an in-app assistant (FastAPI + Google Agent Development Kit, Genkit and Firebase Functions) that takes natural language by text or voice and manages tasks, events, goals and pillars — and auto-schedules work onto the calendar through tool-calling.",
       "**Full productivity system** — Task Cloud (kanban with subtasks and drag-to-schedule), Pillars & Goals for life-area planning, Projects, Focus Time / time-boxing, Time Entries, and a Reporting view with per-pillar analytics (tracked vs target, efficiency, active days).",
       "**Architecture** — one Flutter (Dart 3) codebase for iOS, Android, Web and Desktop with layered state: BLoC for long-lived global state, Provider for UI-reactive state (timers, connectivity) and Riverpod for MCP tokens and audit logs; Firebase for Auth, Firestore real-time sync, Storage and Analytics; a FastAPI backend over Dio.",
-      "**Monetization** — subscription paywalls and in-app purchases via **RevenueCat** (Individual & Team plans, monthly / yearly) with entitlement checks and purchase restore.",
+      "**Monetization** — one **cross-platform** subscription layer with **RevenueCat**: in-app purchases on mobile and **Stripe** on web & desktop, with Individual & Team plans, entitlement checks and purchase restore.",
       "**Tested** — a broad automated test suite (unit, widget and Mockito mock tests) spanning auth, billing, calendars, scheduling, notifications and more.",
       "**My role** — I work across the stack on MTD: the Flutter clients (mobile, web and desktop), the FastAPI + Google ADK backend and AI assistant, and the platform-specific hard problems (cross-provider calendar sync, Live Activities, real-time data flow) — from design to a shipped product."
     ],
