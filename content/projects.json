@@ -56,7 +56,7 @@
     "duration": "Dec 2023 – May 2024",
     "category": "Mobile",
     "role": "Software Engineer",
-    "summary": "A community fitness-challenge app — cycling and walking contests, leaderboards, and automated certificate generation.",
+    "summary": "A community fitness-challenge app — cycling and walking contests, leaderboards, and automated certificate generation — 10K+ downloads, 4.4-star rated.",
     "link": "",
     "demoUrl": "",
     "tech": [
@@ -71,9 +71,10 @@
       "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/crooze_shots/challenge.png",
       "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/crooze_shots/leaderboard.png"
     ],
-    "overview": "Crooze is a community-driven fitness app (iOS & Android) where users join admin-hosted cycling and walking challenges to earn rewards and certificates. As a software engineer at The Internet Folks I shipped three challenge modules (Community, Club, Individual) plus leaderboards and automated certificates, then hardened a live product — cutting GraphQL over-fetching and resolving crash loops and Android Binder transaction failures.",
+    "overview": "Crooze is a community-driven fitness app (iOS & Android) where users join admin-hosted cycling and walking challenges to earn rewards and certificates. As a software engineer at The Internet Folks I shipped three challenge modules (Community, Club, Individual) plus leaderboards and automated certificates, then hardened a live product — cutting GraphQL over-fetching and resolving crash loops and Android Binder transaction failures. Live on Google Play and the App Store with 10K+ downloads and a 4.4-star rating.",
     "details": [
       "**Context** — Crooze is a community fitness app where admins host cycling and walking challenges and users compete for rewards and certificates; I joined to ship features and harden a live product.",
+      "**Shipped & rated** — live on Google Play and the App Store: **10K+ downloads** with **4.4★** (439 reviews) on Play and 3.5★ on the App Store.",
       "**Three challenge modes** — built Community, Club and Individual challenges end to end, each with its own enrolment rules, leaderboards and challenge-summary views.",
       "**Leaderboards & certificates** — leaderboards ranking participants by distance and points, plus automated certificate generation for challenge winners.",
       "**GraphQL performance** — integrated and tuned GraphQL queries to cut over-fetching across challenge and profile screens (fetching only the fields each screen needs), reducing payloads and latency.",
