@@ -15,6 +15,13 @@
   },
   {
     "category": "Mobile & Frontend",
+    "name": "In-App Purchases & Paywalls (RevenueCat)",
+    "level": 0.85,
+    "description": "Subscription paywalls and in-app purchases with RevenueCat — entitlements, restore and store integration.",
+    "icon": "📱"
+  },
+  {
+    "category": "Mobile & Frontend",
     "name": "iOS Live Activities & Android Native",
     "level": 0.8,
     "description": "ActivityKit / Dynamic Island on iOS and native Android background services.",
@@ -82,5 +89,12 @@
     "level": 0.9,
     "description": "Using AI as a working partner to ship faster, with solid version control and pipelines.",
     "icon": "⚡"
+  },
+  {
+    "category": "Testing & QA",
+    "name": "Unit, Widget & Mock Testing (Flutter · Mockito)",
+    "level": 0.85,
+    "description": "Unit, widget and integration tests with Mockito mocks and a test-driven mindset.",
+    "icon": "🧪"
   }
 ]
