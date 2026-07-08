@@ -184,6 +184,7 @@
     ],
     "thumbnail": "",
     "screenshots": [
+      "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/repointel_shots/mcp-server.png",
       "https://cdn.jsdelivr.net/gh/sadiqueiqbal0786/my_portfolio_data@main/assets/repointel_shots/architecture.png"
     ],
     "overview": "RepoIntel is an open-source Python tool I built that analyzes a codebase once and stores a persistent, machine-readable repository memory — architecture, dependencies, conventions, relationships, and change impact — so every AI agent loads understanding in seconds instead of re-exploring from scratch. It exposes that memory over an MCP server (10 tools) for any MCP-compatible agent, and compresses a repo context ~190x (about 56k tokens of source to a ~290-token context pack).",
